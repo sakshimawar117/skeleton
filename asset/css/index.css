@@ -1,0 +1,59 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color:#8080804a;
+    display: inline-block;
+    animation: blink 1s infinite alternate;
+}
+.box{
+    width: 399px;
+    height: 100px;
+    margin-left: 20px;
+    background-color: #8080804a;
+    
+    display: inline-block;
+    animation: blink 1s infinite alternate;
+
+    
+}
+.box2{
+    width: 521px;
+    height: 100px;
+    background-color: #8080804a;
+    margin-top: 20px;
+    display: inline-block;
+    animation: blink 1s infinite alternate;
+
+}
+
+    
+.box3{ width: 521px;
+    height: 249px;
+    background-color: #8080804a;
+    margin-top: 20px;
+    display: inline-block;
+    animation: blink 1s infinite alternate;
+
+
+}
+
+
+body{display: flex;
+    justify-content: center;}
+    
+    
+    section{
+        width: 600px;
+    }
+@keyframes blink {0%
+    { filter: brightness(.5);
+        
+
+}
+}
+100%{  filter: brightness(1);
+    
+
+}
+    
+}
